@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/main.css">
+	<title>Subscribe - MTgraphy</title>
+
+	<style>
+		body {
+			background-image: url('assets/images/duy-pham-Cecb0_8Hx-o-unsplash.jpg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+</head>
+
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">MTgraphy</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+					aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse flex-wrap flex-column align-content-end" id="navbarCollapse">
+					<ul class="navbar-nav me-auto mb-2 mb-md-0">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.html">Gallery</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="about-us.html">About Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact-us.html">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="subscribe.html">Subscribe</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<main>
+
+			<!-- <div class="row g-5"> -->
+			<div class="col-md-4 mt-5 bg-light px-4 rounded-4 shadow">
+				<div class="pt-5 pb-4">
+					<h2>SUBSCRIPTION FORM</h2>
+					<p class="lead">please fill the form below to subscribe <b>MTgraphy</b>!.</p>
+				</div>
+				<form class="needs-validation" novalidate>
+					<div class="row g-3">
+						<div class="col-12">
+							<label for="name" class="form-label">Name</label>
+							<input type="text" class="form-control" id="name" placeholder="" value="" required>
+							<div class="invalid-feedback">
+								Valid name is required.
+							</div>
+						</div>
+
+						<div class="col-12">
+							<label for="email" class="form-label">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="" required>
+							<div class="invalid-feedback">
+								Please enter a valid email address.
+							</div>
+						</div>
+
+						<div class="col-12">
+							<label for="phone" class="form-label">Phone</label>
+							<input type="" class="form-control" id="phone" placeholder="" required>
+							<div class="invalid-feedback">
+								Please enter your phone number.
+							</div>
+						</div>
+
+						<div class="col-12">
+							<label for="country" class="form-label">Country</label>
+							<select class="form-select" id="country" required>
+								<option value="">Choose...</option>
+								<option>Indonesia</option>
+								<option>Singapore</option>
+								<option>Malaysia</option>
+							</select>
+							<div class="invalid-feedback">
+								Please select a valid country.
+							</div>
+						</div>
+
+
+
+						<div class="col-12">
+
+
+							<div class="form-check">
+								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+								<label class="form-check-label" for="invalidCheck">
+									Agree to terms and conditions
+								</label>
+								<div class="invalid-feedback">
+									You must agree before submitting.
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<button class="w-100 btn btn-primary btn-lg my-4" type="submit">Subscribe</button>
+				</form>
+			</div>
+			<!-- </div> -->
+
+			<hr class="featurette-divider mb-3">
+			<!-- FOOTER -->
+			<footer class="container text-center">
+				<p>2502036211 Ida Bagus Gede Purwa Manik Adiputra</p>
+			</footer>
+		</main>
+	</div>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"></script>
+	<script src="assets/form-validation.js"></script>
+</body>
+
+</html>
